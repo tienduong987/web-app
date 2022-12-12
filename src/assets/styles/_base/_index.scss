@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+$font-stack: "Open Sans", sans-serif;
+
+@import "./resret";
+@import "./element-ui/index";
+@import "./button";
+@import "./text";
+@import "./space";
+@import "./amount";
+@import "./class-custom-landing";
+@import "./class-custom";
+@import "./grid.scss";
+@import "./marketplace/text.scss";
+@import "./marketplace/layout";
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  font-family: $font-stack !important;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: var(--bc-text-primary);
+  @include font-size(14);
+  font-family: $font-stack !important;
+  font-weight: 400;
+}

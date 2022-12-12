@@ -1,0 +1,39 @@
+//language
+.select-language {
+    .el-input__inner {
+        padding-left: 36px !important;
+        color: #0a0b0d;
+    }
+}
+.dropdown-select {
+    display: none;
+}
+
+//pagination
+.select-pagination {
+    .el-scrollbar {
+        .el-select-dropdown__list {
+            .el-select-dropdown__item {
+                font-size: 14px;
+                &::after {
+                    content: "" !important;
+                }
+            }
+        }
+    }
+}
+
+.language {
+    .select-language--header {
+        .el-input__inner {
+            border: none;
+        }
+    }
+}
+
+.el-select-dropdown.market-price-popper {
+    width: 200px;
+}
+.el-select-dropdown.market-price-popper--vi {
+    width: 260px;
+}

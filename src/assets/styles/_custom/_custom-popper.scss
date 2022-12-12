@@ -1,0 +1,44 @@
+.el-popper.popper-validate-password {
+    background-color: #f3f2f1;
+    // .check-password {
+    //     .check-item {
+    //         color: red;
+    //     }
+    // }
+    .popper__arrow {
+        border-right-color: #ebeef5 !important;
+        &::after {
+            border-right-color: #f3f2f1 !important;
+        }
+    }
+}
+
+.el-popper.popper-select-network {
+    .el-scrollbar {
+        .el-select-dropdown__list {
+            .el-select-dropdown__item {
+                padding: 8px 12px;
+                height: 60px;
+            }
+            .el-select-dropdown__item.selected::after {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+.el-popper.popper-select-language-header {
+    width: 155px;
+}
+
+.el-popper.popper-select-project {
+    width: 300px;
+    .el-scrollbar {
+        .el-select-dropdown__list {
+            .el-select-dropdown__item {
+                padding-right: 45px;
+            }
+        }
+    }
+}

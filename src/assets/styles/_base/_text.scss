@@ -1,0 +1,97 @@
+.text-xs {
+    font-size: 12px;
+    line-height: 16px;
+}
+.text-sm {
+    font-size: 14px;
+    line-height: 16px;
+}
+.text-base {
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-base1 {
+    font-size: 14px;
+    line-height: 24px;
+}
+.text-l {
+    font-size: 18px;
+    line-height: 24px;
+}
+.text-0xl {
+    font-size: 20px;
+    line-height: 24px;
+}
+.text-xl {
+    font-size: 20px;
+    line-height: 30px;
+}
+.text-1xl {
+    font-size: 24px;
+    line-height: 32px;
+}
+.text-2xl {
+    font-size: 24px;
+    line-height: 36px;
+}
+.text-3xl {
+    font-size: 30px;
+    line-height: 45px;
+}
+.text-4xl {
+    font-size: 36px;
+    line-height: 54px;
+}
+.text-5xl {
+    font-size: 48px;
+    line-height: 48px;
+}
+.text-6xl {
+    font-size: 60px;
+    line-height: 60px;
+}
+.text-7xl {
+    font-size: 48px;
+    line-height: 64px;
+}
+.text-8xl {
+    font-size: 64px;
+    line-height: 14px;
+}
+.text-regular {
+    font-weight: 400;
+}
+.text-medium {
+    font-weight: 500;
+}
+.text-semibold {
+    font-weight: 600;
+}
+.text-bold {
+    font-weight: 600;
+}
+
+.text-hyperlink {
+    color: var(--bc-text-hyperlink);
+}
+
+.text-grey-130 {
+    color: var(--bc-color-grey130);
+}
+.text-grey-190 {
+    color: var(--bc-color-grey190);
+}
+.color-primary {
+    color: var(--bc-text-primary);
+}
+
+.text-desc {
+    color: var(--bc-text-discript);
+}
+
+.text-overflow-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

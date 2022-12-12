@@ -1,0 +1,311 @@
+// wallet main
+.bc-wallet {
+  .wallet-table {
+    .table-wallet {
+      .el-table {
+        .el-table__body-wrapper {
+          height: calc(100vh - 572px);
+
+          .el-table__row {
+            .icon-copy {
+              &:hover {
+                .span-icon {
+                  color: red;
+                }
+              }
+            }
+          }
+
+          @media screen and (max-height: 900px) {
+            height: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+//popup quota
+.setting-quota {
+  .cell {
+    color: var(--bc-form-label) !important;
+  }
+
+  table {
+    width: 100% !important;
+  }
+}
+
+.table-transaction-custom {
+  .cell {
+    word-break: unset !important;
+  }
+}
+
+#detail-expenses {
+  .el-table__header {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    background: #F3F2F1;
+    border: none;
+  }
+
+  .el-table__body {
+    border: 1px solid #EBEEF5
+  }
+  .el-table--border{
+    box-shadow: inset 0px -1px 0px #DBDBDB;
+  }
+  .el-table--border::after, .el-table--group::after{
+    width: 0;
+  }
+  .el-table{
+    //filter: drop-shadow(0px 1.2px 3.6px rgba(0, 0, 0, 0.1)) drop-shadow(0px 6.4px 14.4px rgba(0, 0, 0, 0.13));
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .el-table__body, .el-table__footer, .el-table__header{
+    table-layout: auto;
+  }
+  .el-table__footer{
+    border-right: 1px solid #F5F7FA;
+    border-left: 1px solid #F5F7FA;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A0B0D;
+   tr{
+     td{
+       text-align: right;
+       background-color: #FFFFFF;
+       .cell{
+         font-family: Open Sans;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 32px;
+         background: linear-gradient(to right, #9d3ef2 100%, #3036f4 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         width: 124px;
+         text-align: right;
+         margin-left: 12px;
+       }
+     }
+     td:first-of-type{
+       .cell{
+         font-family: Open Sans;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 24px;
+         display: flex;
+         align-items: center;
+         color: #0A0B0D;
+         background: none;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: #0A0B0D;
+         margin-left: 0;
+       }
+     }
+   }
+  }
+  .el-table__footer-wrapper tbody td, .el-table__header-wrapper tbody td{
+    color: #0A0B0D;
+  }
+  .el-table__row{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A0B0D;
+  }
+
+  .el-table__header-wrapper {
+    tr {
+      background: #F3F2F1;
+      box-shadow: inset 0px -1px 0px #DBDBDB;
+      overflow: hidden;
+
+      .is-leaf {
+        background: #F3F2F1;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #0A0B0D;
+
+        &:first-of-type {
+          //border-radius: 8px 0 0 0;
+        }
+
+        &:last-of-type {
+          //border-radius: 0 8px 0 0;
+        }
+      }
+    }
+
+  }
+  .el-table__footer-wrapper td{
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .table-1 {
+    .el-table--border th {
+      border-right: none;
+    }
+
+    .el-table__row {
+      td{
+        border-right: none;
+        border-left: none;
+      }
+    }
+
+    .el-table__footer-wrapper {
+      tr {
+        td {
+          border-right: none;
+          border-left: none;
+        }
+      }
+    }
+  }
+  .table-2 {
+    .el-table--border th {
+      border-right: none;
+    }
+
+    .el-table__row {
+      td {
+        border-right: none;
+      }
+    }
+
+    .el-table__footer-wrapper {
+      tr {
+        td {
+          border-right: none;
+        }
+      }
+    }
+  }
+
+}
+#detail-investment{
+  .el-table__header {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    background: #F3F2F1;
+    border: none;
+  }
+
+  .el-table__body {
+    border: 1px solid #EBEEF5
+  }
+  .el-table--border{
+    box-shadow: inset 0px -1px 0px #DBDBDB;
+  }
+  .el-table--border::after, .el-table--group::after{
+    width: 0;
+  }
+  .el-table{
+    //filter: drop-shadow(0px 1.2px 3.6px rgba(0, 0, 0, 0.1)) drop-shadow(0px 6.4px 14.4px rgba(0, 0, 0, 0.13));
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .el-table__body, .el-table__footer, .el-table__header{
+    table-layout: auto;
+  }
+  .el-table__footer{
+    border-right: 1px solid #F5F7FA;
+    border-left: 1px solid #F5F7FA;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A0B0D;
+    tr{
+      td{
+        text-align: right;
+        background-color: #FFFFFF;
+        .cell{
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          background: linear-gradient(to right, #9d3ef2 100%, #3036f4 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      td:first-of-type{
+        .cell{
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #0A0B0D;
+          background: none;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: #0A0B0D;
+        }
+      }
+    }
+  }
+  .el-table__footer-wrapper tbody td, .el-table__header-wrapper tbody td{
+    color: #0A0B0D;
+  }
+  .el-table__row{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A0B0D;
+    &--level-1{
+      color: #5B616E;
+    }
+  }
+
+  .el-table__header-wrapper {
+    tr {
+      background: #F3F2F1;
+      box-shadow: inset 0px -1px 0px #DBDBDB;
+      overflow: hidden;
+
+      .is-leaf {
+        background: #F3F2F1;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #0A0B0D;
+
+        &:first-of-type {
+          //border-radius: 8px 0 0 0;
+        }
+
+        &:last-of-type {
+          //border-radius: 0 8px 0 0;
+        }
+      }
+    }
+
+  }
+  .el-table__footer-wrapper td{
+    border-top: none;
+    border-bottom: none;
+  }
+}
